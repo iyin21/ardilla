@@ -3,7 +3,6 @@ import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
 import CarouselItem from "./subcomponents/CarouselItem";
 import { CarouselItems } from "./utils/carouseltems";
-import { Progress } from "@mantine/core";
 
 const Product = () => {
     return (
@@ -60,7 +59,7 @@ const Product = () => {
                         imgSource={item.imgSource}
                     />
                 ))}
-                <Progress value={30} />
+                
             </Carousel>
         </div>
     );
