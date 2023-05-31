@@ -1,0 +1,24 @@
+.container {
+    padding: 80px var(--home-margin) 250px var(--home-margin);
+    @media screen and (max-width: 600px) {
+        padding: 80px 10px 250px 10px;
+     }
+    .questionContainer {
+        background: #f9fafb;
+        border-radius: 16px;
+        display: flex;
+        justify-content: space-between;
+        padding: 30px 40px;
+        margin-bottom: 30px;
+        margin-top: 80px;
+        p {
+            color: rgba(136, 7, 247, 1);
+            font-weight: 500;
+            font-size: 16px;
+            line-height: 24px;
+        }
+        svg{
+            cursor: pointer;
+        }
+    }
+}

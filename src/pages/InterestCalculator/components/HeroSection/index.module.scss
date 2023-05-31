@@ -1,0 +1,123 @@
+.container {
+    padding: 80px var(--home-margin) 0px var(--home-margin);
+    display: flex;
+    justify-content: space-between;
+    @media screen and (max-width: 1145px) {
+        flex-direction: column-reverse;
+        h4 {
+            margin-top: 20px;
+        }
+        
+     }
+     @media screen and (max-width: 800px) {
+        padding: 100px 20px 0px 20px;
+        
+     }
+    .formContainer {
+        padding-bottom: 200px;
+
+        .form {
+            flex-direction: column;
+            display: flex;
+        }
+        h4 {
+            color: var(--white);
+            font-weight: 700;
+            font-size: 40px;
+            line-height: 50px;
+        }
+        label {
+            margin-top: 50px;
+            margin-bottom: 18px;
+            font-weight: 500;
+            font-size: 16px;
+            color: var(--gray);
+        }
+        select {
+            box-sizing: border-box;
+            border: 1px solid #ffffff;
+            border-radius: 8px;
+            padding: 2em;
+            background: transparent;
+            color: var(--white);
+        }
+
+        input {
+            border: none;
+            background: transparent;
+            border-bottom: 1px solid #ffffff;
+            outline: none;
+            color: var(--white);
+            padding: 0.5em 0;
+            font-size: 32px;
+            line-height: 40px;
+        }
+        input[type="text"]:focus {
+            border-bottom: 1px solid #ffffff;
+        }
+        .btn {
+            width: 159px;
+            margin-top: 70px;
+        }
+        
+    }
+    .analyticsContainer {
+        background: #f3f4f6;
+        margin-top: 50px;
+        border-radius: 16px;
+        flex-direction: column;
+            display: flex;
+        padding: 4em 4em;
+        padding: auto;
+        @media screen and (max-width: 1145px) {
+            
+            padding: 4em 8em;
+        }
+        @media screen and (max-width: 850px) {
+            
+            padding: 2em 2em;
+        }
+        @media screen and (max-width: 460px) {
+            padding: 2em 1em;
+        }
+        p {
+            font-weight: 500;
+            font-size: 12px;
+            line-height: 14px;
+            color: #9ca3af;
+        }
+        .subtext {
+            margin-top: 30px;
+            span {
+                font-size: 16px;
+            }
+        }
+        img {
+            width: 498px;
+            height: 191px;
+            @media screen and (max-width: 1270px) {
+                width: 380px;
+            height: 140px;
+                
+            }
+            @media screen and (max-width: 1145px) {
+                width: 498px;
+            height: 191px;
+                
+             }
+             @media screen and (max-width: 760px) {
+                width: 380px;
+                height: 140px;
+            }
+            @media screen and (max-width: 460px) {
+                width: 250px;
+                height: 100px;
+            }
+        }
+        .btn {
+            width: 159px;
+            margin-top: 70px;
+            
+        }
+    }
+}

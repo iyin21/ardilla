@@ -1,0 +1,57 @@
+.heroSection {
+    padding: 80px 250px 150px 150px;
+    color: var(--white);
+    position:relative;
+    @media screen and (max-width: 1230px) {
+        padding: 80px 100px 150px 100px;
+    }
+    @media screen and (max-width: 600px) {
+        padding: 80px 20px 150px 20px;
+    }
+ h2{
+    color: var(--white);
+    font-weight: 500;
+ }
+    .amberHeading {
+    
+        background: #f59e0b;
+        padding-top: 50px;
+        width: fit-content;
+        padding-right: 150px;
+        border-radius: 6px;
+        @media screen and (max-width: 770px) {
+            padding-right: 50px;
+        }
+        @media screen and (max-width: 450px) {
+            padding-right: 0
+        }
+        
+    }
+    .redHeading{
+        background: #E8356D;
+        width: fit-content;
+        padding-top: 50px;
+        padding-right: 150px;
+        margin-left: auto;
+        @media screen and (max-width: 770px) {
+            padding-right: 50px;
+        }
+        @media screen and (max-width: 450px) {
+            padding-right: 0
+        }
+    }
+    .tealHeading{
+        background: #0D9488;
+        padding-right: 5px;
+        width: fit-content;
+        padding-right: 150px;
+        border-radius: 6px;
+        padding-top: 50px;
+        @media screen and (max-width: 770px) {
+            padding-right: 50px;
+        }
+        @media screen and (max-width: 450px) {
+            padding-right: 0
+        }
+    }
+}

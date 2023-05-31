@@ -29,18 +29,34 @@ Your app is ready to be deployed!
 
 See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `yarn eject`
+## FOLDER STRUCTURE
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+|-components
+|-assets
+|-pages
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+#### Components
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+Houses all components general to the platform, eg. buttons, footer, Nav.
+Each folder within the components folder has it's respective readmes which shows info on what it does and where it is used, alongside it's types.
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+#### Assets
 
-## Learn More
+Contains assets used by the reusable components and font
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+#### Pages
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+Contains all the pages within the platform
+
+## Navigation
+
+The career nav leads to the careers page
+Get Started button on the transparency call to action section navigates to the interest calculator page
+Some of the links on the footer like FAQs, and product scroll to the section on the page
+
+## To start the project
+
+Clone the respository
+Navigate to the project directory
+Run yarn install
+Run yarn start

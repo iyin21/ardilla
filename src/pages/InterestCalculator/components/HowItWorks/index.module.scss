@@ -1,0 +1,29 @@
+.container {
+    padding: 80px var(--home-margin) 50px var(--home-margin);
+    @media screen and (max-width: 600px) {
+        padding: 80px 20px 50px 20px;
+        h3 {
+            font-size: 20px;
+            line-height: 20px;
+        }
+    }
+    h3 {
+        font-size: 50px;
+        line-height: 70px;
+        @media screen and (max-width: 600px) { 
+                font-size: 35px;
+                line-height: 55px;
+        }
+    }
+    .image_wrapper{
+        display: flex;
+        justify-content: space-between;
+        margin-top: 50px;
+        @media screen and (max-width: 1320px) {
+            flex-direction: column;
+            img{
+                margin-bottom: 20px;
+            }
+          }
+    }
+}

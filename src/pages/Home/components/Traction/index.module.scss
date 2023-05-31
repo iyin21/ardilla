@@ -1,0 +1,112 @@
+.container {
+    background: #1b0132;
+    padding: 111px var(--home-margin) 350px var(--home-margin);
+    text-align: center;
+    color: var(--white);
+    @media screen and (max-width: 1340px) {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    @media screen and (max-width: 830px) {
+        padding-left: 100px;
+        padding-right: 100px;
+    }
+    @media screen and (max-width: 450px) {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    h2 {
+        color: var(--white);
+        display: flex;
+    }
+    p {
+        font-size: 18px;
+        line-height: 24px;
+        margin-top: 11px;
+    }
+    .traction_container {
+        display: flex;
+        justify-content: space-between;
+
+        @media screen and (max-width: 830px) {
+            flex-direction: column;
+            gap: 30px;
+        }
+        margin-top: 130px;
+        .investment {
+            background: #d2ffde;
+            border-radius: 70px 70px 0px 70px;
+            padding: 250px 40px 150px 40px;
+            @media screen and (max-width: 1200px) {
+                padding-left: 20px;
+                padding-right: 20px;
+            }
+            p {
+                font-weight: 700;
+                font-size: 20px;
+                line-height: 25px;
+                margin-bottom: 7px;
+                color: #2a332c;
+                span {
+                    background: #33593d;
+                    border-radius: 2px;
+                    padding: 7px 15px 7px 5px;
+                    color: var(--white);
+                }
+            }
+            h2 {
+                color: #2a332c;
+            }
+        }
+        .risk_management {
+            background: #c8c1fd;
+            border-radius: 70px 70px 0px 70px;
+            padding: 250px 40px 150px 40px;
+            @media screen and (max-width: 1200px) {
+                padding-left: 20px;
+                padding-right: 20px;
+            }
+            p {
+                font-weight: 700;
+                font-size: 20px;
+                line-height: 25px;
+                margin-bottom: 7px;
+                color: #282733;
+                span {
+                    background: #35298a;
+                    border-radius: 2px;
+                    padding: 7px 15px 7px 5px;
+                    color: var(--white);
+                }
+            }
+            h2 {
+                color: #282733;
+            }
+        }
+        .investment_paid {
+            background: #faf7c3;
+            border-radius: 70px 70px 0px 70px;
+            padding: 250px 40px 150px 40px;
+            @media screen and (max-width: 1200px) {
+                padding-left: 20px;
+                padding-right: 20px;
+            }
+            p {
+                font-weight: 700;
+                font-size: 20px;
+                line-height: 25px;
+                margin-bottom: 7px;
+                color: #333228;
+                span {
+                    background: #9f9704;
+                    border-radius: 2px;
+                    padding: 7px 15px 7px 5px;
+                    color: var(--white);
+                }
+            }
+            h2 {
+                color: #333228;
+            }
+        }
+    }
+}

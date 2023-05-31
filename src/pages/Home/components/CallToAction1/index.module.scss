@@ -1,0 +1,58 @@
+.cta_container {
+    background-color: var(--white);
+    padding: 140px var(--home-margin) 200px var(--home-margin);
+    display: flex;
+
+    justify-content: space-between;
+    @media screen and (max-width: 600px) {
+        padding: 140px 60px 200px 60px;
+    }
+    @media screen and (max-width: 480px) {
+        padding: 140px 20px 200px 20px;
+    }
+    @media screen and (max-width: 1200px) {
+        //margin-right: 20px;
+        justify-content: center;
+        text-align: center;
+        //display: block;
+        flex-direction: column-reverse;
+    }
+    .purpleTitle {
+        color: var(--purple);
+        @media screen and (max-width: 1200px) {
+            margin-top: 20px;
+        }
+    }
+    .pinkTitle {
+        color: var(--pink);
+        margin: 32px 0;
+    }
+    p {
+        color: var(--purple);
+        margin-bottom: 32px;
+    }
+    .btn {
+        padding-left: 48px;
+        padding-right: 48px;
+    }
+    img {
+        width: 560px;
+        height: 340px;
+        margin: auto;
+        @media screen and (max-width: 760px) {
+            width: 400px;
+            height: 280px;
+            margin: auto;
+        }
+        @media screen and (max-width: 760px) {
+            width: 300px;
+            height: 200px;
+            margin: auto;
+        }
+        @media screen and (max-width: 350px) {
+            width: 200px;
+            height: 100px;
+            margin: auto;
+        }
+    }
+}

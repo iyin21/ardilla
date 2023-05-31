@@ -1,0 +1,24 @@
+.heroSection {
+    text-align: center;
+    h1 {
+        background: linear-gradient(91.7deg, #ffeb35 7.5%, rgba(25, 253, 130, 0.99) 107.24%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        background-clip: text;
+        text-fill-color: transparent;
+    }
+    p {
+        color: var(--white);
+        width: 48%;
+        margin: auto;
+    }
+    .btnContainer {
+        display: grid;
+        margin-top: 40px;
+        justify-items: center;
+        margin-bottom: 50px;
+    }
+    .btn {
+        padding: 18px 48px;
+    }
+}

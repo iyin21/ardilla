@@ -1,0 +1,119 @@
+@import url("./assets/fonts/cabinet-grotesk.css");
+
+:root {
+    --primary: #240053;
+    --secondary: #8807f7;
+    --purple: #3d0072;
+    --pink: #e8356d;
+    --gray: #9ca3af;
+    --white: #ffffff;
+    --teal: #0d9488;
+    --font-weight-normal: 400;
+    --font-weight-medium: 500;
+    --font-weight-bold: 700;
+    --font-weight-bolder: 900;
+    --font-size-xs: 10px;
+    --font-size-sm: 14px;
+    --font-size-base: 16px;
+    --font-size-md: 18px;
+    --font-size-lg: 24px;
+    --font-size-xl: 48px;
+    --font-size-xxl: 56px;
+    --border-radius-sm: 5px;
+    --home-margin: 110px;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: "CabinetGrotesk";
+    color: var(--purple);
+    font-size: 14px;
+    line-height: 32px;
+}
+%h {
+    color: var(--purple);
+}
+%h-bold {
+    @extend %h;
+    font-weight: 800;
+}
+%h-light {
+    @extend %h;
+    font-weight: 500;
+}
+
+h1 {
+    @extend %h-bold;
+    font-size: 90px;
+    line-height: 110px;
+}
+h2 {
+    @extend %h-bold;
+    font-size: 80px;
+    line-height: 80px;
+}
+h3 {
+    @extend %h-bold;
+    font-size: 60px;
+    line-height: 70px;
+}
+h4 {
+    @extend %h-bold;
+    font-size: 40px;
+    line-height: 54px;
+}
+h5 {
+    @extend %h-light;
+    font-size: 28px;
+    line-height: 42px;
+}
+h6 {
+    @extend %h-light;
+    font-size: 24px;
+    line-height: 30px;
+}
+@media screen and (max-width: 1024px) {
+    h1 {
+        font-size: 70px;
+        line-height: 80px;
+    }
+    h2 {
+        @extend %h-bold;
+        font-size: 60px;
+        line-height: 60px;
+    }
+    h3 {
+        @extend %h-bold;
+        font-size: 50px;
+        line-height: 30px;
+    }
+    h4 {
+        @extend %h-bold;
+        font-size: 28px;
+        line-height: 34px;
+    }
+}
+@media screen and (max-width: 768px) {
+    h1 {
+        font-size: 50px;
+        line-height: 70px;
+    }
+    h2 {
+        font-size: 45px;
+        line-height: 45px;
+    }
+    h3 {
+        font-size: 36px;
+        line-height: 40px;
+    }
+    h4 {
+        font-size: 32px;
+        line-height: 38px;
+    }
+}

@@ -1,0 +1,24 @@
+.container {
+    display: flex;
+    justify-content: space-between;
+    @media screen and (max-width: 900px) {
+        flex-direction: column-reverse;
+    }
+    .title {
+        color: var(--pink);
+        margin-bottom: 7px;
+    }
+    .subtitle {
+        color: var(--purple);
+        margin-bottom: 64px;
+        font-weight: 500;
+        font-size: 20px;
+    }
+    .product_item_container {
+        display: flex;
+        align-items: center;
+        .product_item {
+            margin-left: 30px;
+        }
+    }
+}
